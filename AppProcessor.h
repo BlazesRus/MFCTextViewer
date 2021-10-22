@@ -15,15 +15,15 @@
 
 #include "AppSettings.h"
 
-class AppProcesser : public MFCApp<TextView, AppSettings>
+class AppProcessor : public MFCApp<TextView, AppSettings>
 {
-    MFC_RuntimeExtPart01Base02(AppProcesser, MFCApp, TextView, AppSettings)
+    MFC_RuntimeExtPart01Base02(AppProcessor, MFCApp, TextView, AppSettings)
     //Any message map messages here
     MFC_RuntimeExtPart02()
-    MFC_RuntimeExtClassName(AppProcesser)
+    MFC_RuntimeExtClassName(AppProcessor)
 };
 
-MFC_RuntimeImplimentation(AppProcesser)
-MFC_RuntimeClassImplimentation(AppProcesser)
+MFC_RuntimeImplimentation(AppProcessor)
+MFC_RuntimeClassImplimentation(AppProcessor)
 
-extern AppProcesser theApp;
+extern AppProcessor theApp;

@@ -1,6 +1,5 @@
 #include "AppPch.h"
-
-#include "AppProcessing.h"
+#include "AppProcessor.h"
 
 // The one and only MFCApp object
-AppProcesser theApp;
+AppProcessor theApp;

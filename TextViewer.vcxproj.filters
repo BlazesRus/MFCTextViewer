@@ -141,7 +141,7 @@
     <ClInclude Include="TextView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AppProcessing.h">
+    <ClInclude Include="AppProcessor.h">
       <Filter>ProcessingThread</Filter>
     </ClInclude>
     <ClInclude Include="$(MFCApp)/MFCpch.h">
@@ -188,7 +188,7 @@
     <ClCompile Include="AppPch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AppProcessing.cpp">
+    <ClCompile Include="AppProcessor.cpp">
       <Filter>ProcessingThread</Filter>
     </ClCompile>
     <ClCompile Include="$(MFCApp)/MFCpch.cpp">

@@ -237,9 +237,9 @@
       <PrecompiledHeaderFile>AppPch.h</PrecompiledHeaderFile>
     </ClCompile>
     <ClInclude Include="AppRes.h" />
-    <ClCompile Include="AppProcessing.cpp" />
+    <ClCompile Include="AppProcessor.cpp" />
     <ClCompile Include="TextView.cpp" />
-    <ClInclude Include="AppProcessing.h" />
+    <ClInclude Include="AppProcessor.h" />
     <ClInclude Include="TextView.h" />
   </ItemGroup>
   <ItemGroup>
