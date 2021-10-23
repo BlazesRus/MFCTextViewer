@@ -6,7 +6,6 @@
 // ***********************************************************************
 #pragma once
 
-//#include "AppPch.h"
 #include "../MFCApp/MFCApp.h"
 #include "TextView.h"
 
